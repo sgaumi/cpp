@@ -1,4 +1,5 @@
 #include <iostream>
+#include <string>
 
 using namespace std;	// quel lot de fonctionnalite utiliser/quel espace de nom
 
@@ -15,6 +16,16 @@ int main(){
 	cout << "\"" << endl; //afficher guillemet
 	cout << "\\" << endl; //afficher backslash
 	cout << "\n" << endl; //backslash n = saut de ligne aussi
+
+
+	//affichage variables
+	int	a(2);
+	string b("abcd");
+	cout << a;
+	cout << b;
+	cout << "a=" << a << " b=" << b << endl;
+
+
 	return 0;
 
 }
