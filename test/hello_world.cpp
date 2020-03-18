@@ -1,6 +1,6 @@
 #include <iostream>
 
-using namespace std;
+using namespace std;	// quel lot de fonctionnalite utiliser
 
 int main(){
 
